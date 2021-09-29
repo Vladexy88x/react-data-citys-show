@@ -77,9 +77,7 @@ function DataShow() {
                         overlay={(
                             <Tooltip style={{ marginLeft: `-${1100 - coordinateX}px` }} id={`tooltip-${index}`}>
                                 {regItem.name}
-                                {' '}
                                 {regItem.data}
-                                {' '}
                                 людей</Tooltip>
                                           )}
                       >
