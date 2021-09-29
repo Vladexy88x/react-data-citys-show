@@ -54,12 +54,10 @@ function DataShow() {
     }, Object.create(null));
     stNewSe([result]);
   };
-
-
+  
   useEffect(() => {
     Logic();
   }, []);
-
 
   return (
     <div className="TestDataShow">
